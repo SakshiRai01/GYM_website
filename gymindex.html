@@ -9,124 +9,23 @@
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="gymindex.css">
-<style>
-    /* CSS reset*/
-    body {
-        margin: 0px;
-        padding: 0px;
-        background: url('fitness-g85ba9be3e_1920.jpg');
-        color: rgb(17, 1, 1);
-        font-family: 'Dancing Script';
-    }
-
-    .header1 {
-        position: inline-block;
-
-    }
-
-    .left {
-        position: absolute;
-        left: 34px;
-        top: 2px;
-        display: inline-block;
-        /* border: 2px solid blue; */
-        color: white;
-
-    }
-
-    .left img {
-        width: 169px;
-        filter: invert();
-    }
-
-    .left div {
-        text-align: center;
-        line-height: 3px;
-        font-size: 25px;
-    }
-
-    .mid {
-        display: block;
-        width: 50%;
-        margin: 12px auto;
-        padding: 5px;
-        font-size: 150%;
-        /* border: 2px solid rgb(49, 187, 129); */
-
-    }
-
-    .right {
-        display: inline-block;
-        position: absolute;
-        right: 34px;
-        top: 35px;
-        /* border: 2px solid red; */
-        width: auto;
-    }
-
-    .btn {
-        margin: 0px 9px;
-        color: rgb(247, 243, 243);
-        background-color: rgb(12, 12, 12);
-        padding: 6px 6px;
-        /* border: 2px solid grey; */
-        border-radius: 8px;
-        cursor: pointer;
-        font-family: 'Dancing Script';
-    }
-
-    .btn:hover {
-        background-color: rgb(73, 66, 66);
-    }
-
-    .navbar {
-        display: inline-block;
-        position: sticky;
-    }
-
-    .navbar li {
-        display: inline-block;
-        font-size: 15px;
-    }
-
-    .navbar li a {
-        color: white;
-        text-decoration: none;
-        padding: 40px;
-        font-size: 25px;
-    }
-
-    .navbar li a:hover,
-    .navbar li a.active:hover {
-        color: rgb(194, 48, 167);
-        text-decoration: underline;
-
-    }
-
-    .navbar li a.active {
-        color: white;
-        text-decoration: underline;
-    }
-
-    .sec1 {
-        position: absolute;
-        top: 350px;
-        color: white;
-    }
-</style>
 
 <body>
+    <div class="background">
+        <img src="/fitness-g85ba9be3e_1920.jpg" alt="Background">
+    </div>
     <header class="header">
         <div class="left">
             <!-- left box for logo -->
             <img src="weight-g19f27237e_1280.png" alt="logo">
             <div>FITness</div>
         </div>
+        
         <div class="mid">
             <ul class="navbar">
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#sec1">About Us</a></li>
+                <li><a href="#">Premium Fitness</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
             <!-- mid for nav bar -->
@@ -142,7 +41,7 @@
 
     </div>
 
-    <section class="sec1">
+    <section id="sec1">
         <h4>Specifications</h4>This gym has everything one can ask for
     </section>
 
