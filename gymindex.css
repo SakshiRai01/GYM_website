@@ -1,7 +1,6 @@
 .container {
     padding: 0%;
     margin: -7%;
-    /*  */
     color: white;
     position: absolute;
     top: 319px;
@@ -12,16 +11,20 @@
 .background{
     display: inline-block;
     position: absolute;
+    height: 80px;
+    width: auto;
+    bottom: 800px;
 
 }
 body {
-    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     font-family: 'Dancing Script'; 
-    overflow-x: visible;
+    overflow-x: hidden;
+} 
+html{
+    scroll-behavior: smooth;
 }
-
 .header{
     z-index: 40;
     position: fixed;
@@ -60,23 +63,22 @@ body {
     width: 59%;
     margin: 12px auto;
     padding: 5px;
-    font-size: 150%;
+    font-size: 170%;
     /* border: 2px solid rgb(49, 187, 129); */
-
 }
 
 .right {
     z-index: 30;
     display: inline-block;
     position: absolute;
-left: 1353px;
+    left: 1277px;
     top: 35px;
     /* border: 2px solid red; */
     width: 400px;
 }
 
 .btn {
-    margin: 0px 9px;
+    margin: 0px 12px;
     color: rgb(247, 243, 243);
     background-color: rgb(12, 12, 12);
     padding: 6px 6px;
@@ -84,6 +86,7 @@ left: 1353px;
     border-radius: 8px;
     cursor: pointer;
     font-family: 'Dancing Script';
+    font-size: 25px;
 }
 
 .btn:hover {
@@ -118,10 +121,128 @@ left: 1353px;
     color: white;
     text-decoration: underline;
 }
-
-#sec1 {
-    position: absolute;
-    top: 1050px;
-    color: cyan;
-    font-size: 190%;
+ #sec1 .cl1 {
+    width:700px;
+    height:700px;
+    background-color: black;
 }
+#sec1{
+    position: absolute;
+    display: inline-block;
+}
+#sec1 img{
+        position: absolute;
+        display: inline-block;
+        width: 1500 px;
+        height: 594px;
+        top: 780 px;
+        left: 30px;
+}
+#about{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 1414px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    font-size: 161%;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+#about li{
+    list-style-type: none;
+}
+#prime{
+    display: inline-block;
+    position: absolute;
+    top: 2300px;
+}
+#prime .offer{
+    position: absolute;
+    display: inline-block;
+    top:-170px;
+    width: 112%;
+    left: 40px;
+    right: 15px;
+}
+.lt{
+    display: inline-block;
+    position: absolute;
+    padding: 22px;
+    font-size: 232%;
+    width: 13%;
+}
+.mdl{
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    padding: 3px;
+    font-size: 190%;
+    left: 510px;
+}
+.rt{
+    position: absolute;
+    left: 1240px;
+    top: 70px;
+    padding: 30px;
+    display: inline-block;
+}
+#prime h3{
+    position: absolute;  
+    top: 179px;
+    left: 360px;
+    font-size: 500%;
+}
+#contact{
+    position: absolute;
+    display: inline-block;
+    top: 3040px;
+    padding: 30px;
+    font-size: 110%;
+    text-align: center;
+}
+#contact .con1{
+    font-size: 100%;
+}
+#contact h3{
+    font-size: 170%;
+}
+#contact address{
+    font-size: 170%;
+}
+#footer{
+    display: inline-block;
+    position: absolute;
+    top: 3500px;
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 175px;
+}
+#footer .links{
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    color:white;
+    width: 50%;
+    top: 17px;
+    left: 20%;
+}
+#footer .text{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 102px;
+    font-size: 168%;
+}
+#footer .text a:hover{
+    color: rgb(194, 48, 167);
+    text-decoration: underline;
+}
+#footer .text a{
+    color: white;
+    text-decoration: none;
+}
+
