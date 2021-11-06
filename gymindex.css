@@ -133,10 +133,8 @@ html{
 #sec1 img{
         position: absolute;
         display: inline-block;
-        width: 1500 px;
         height: 594px;
-        top: 780 px;
-        left: 30px;
+        left: 5px;
 }
 #about{
     display: inline-block;
