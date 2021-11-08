@@ -109,14 +109,8 @@ html{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar li a:hover,
-.navbar li a.active:hover {
+.navbar li a:hover {
     color: rgb(194, 48, 167);
-    text-decoration: underline;
-}
-
-.navbar li a.active {
-    color: white;
     text-decoration: underline;
 }
 
