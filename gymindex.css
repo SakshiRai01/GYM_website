@@ -6,7 +6,7 @@
     top: 319px;
     left: 0px;
     right:577px;
-    font-size: 170%;
+    font-size: 150%;
 }
 .background{
     display: inline-block;
@@ -19,7 +19,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Dancing Script'; 
+    font-family: 'Times New Roman', Times, serif; 
     overflow-x: hidden;
 } 
 html{
@@ -71,8 +71,8 @@ html{
     z-index: 30;
     display: inline-block;
     position: absolute;
-    left: 1277px;
-    top: 35px;
+    left: 1225px;
+    top: 30px;
     /* border: 2px solid red; */
     width: 400px;
 }
@@ -85,7 +85,7 @@ html{
     /* border: 2px solid grey; */
     border-radius: 8px;
     cursor: pointer;
-    font-family: 'Dancing Script';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
@@ -108,6 +108,7 @@ html{
     text-decoration: none;
     padding: 40px;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar li a:hover,
@@ -168,9 +169,10 @@ html{
 .lt{
     display: inline-block;
     position: absolute;
-    padding: 22px;
+    padding: 0px;
     font-size: 232%;
     width: 13%;
+    top: -21px;
 }
 .mdl{
     display: inline-block;
@@ -190,7 +192,7 @@ html{
 #prime h3{
     position: absolute;  
     top: 179px;
-    left: 360px;
+    left: 280px;
     font-size: 500%;
 }
 #contact{
